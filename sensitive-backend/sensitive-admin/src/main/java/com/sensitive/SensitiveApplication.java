@@ -6,25 +6,20 @@ import org.springframework.boot.jdbc.autoconfigure.DataSourceAutoConfiguration;
 
 /**
  * 启动程序
- * 
+ *
  * @author sensitive
  */
-@SpringBootApplication(exclude = { DataSourceAutoConfiguration.class })
-public class SensitiveApplication
-{
-    public static void main(String[] args)
-    {
+@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
+public class SensitiveApplication {
+    public static void main(String[] args) {
         // System.setProperty("spring.devtools.restart.enabled", "false");
         SpringApplication.run(SensitiveApplication.class, args);
-        System.out.println("(♥◠‿◠)ﾉﾞ  sensitive启动成功   ლ(´ڡ`ლ)ﾞ  \n" +
-                " .-------.       ____     __        \n" +
-                " |  _ _   \\      \\   \\   /  /    \n" +
-                " | ( ' )  |       \\  _. /  '       \n" +
-                " |(_ o _) /        _( )_ .'         \n" +
-                " | (_,_).' __  ___(_ o _)'          \n" +
-                " |  |\\ \\  |  ||   |(_,_)'         \n" +
-                " |  | \\ `'   /|   `-'  /           \n" +
-                " |  |  \\    /  \\      /           \n" +
-                " ''-'   `'-'    `-..-'              ");
+        System.out.println("""
+                 /\\ _ /\\
+                ( • ◡ • )    sensitive启动成功
+                / >✨< \\
+                |       |
+                |_______|
+                """);
     }
 }
