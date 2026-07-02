@@ -5,7 +5,7 @@
 </template>
 
 <script setup>
-const url = ref('http://doc.sensitive.vip/sensitive')
+const url = ref('https://github.com/Xianyang-gg/Sensitive')
 
 function goto() {
   window.open(url.value)

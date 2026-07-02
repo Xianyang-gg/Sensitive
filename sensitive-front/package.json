@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://gitee.com/y_project/sensitive.git"
+    "url": "https://github.com/Xianyang-gg/Sensitive.git"
   },
   "dependencies": {
     "@element-plus/icons-vue": "2.3.2",

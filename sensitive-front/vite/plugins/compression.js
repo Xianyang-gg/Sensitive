@@ -6,7 +6,7 @@ export default function createCompression(env) {
   if (VITE_BUILD_COMPRESS) {
     const compressList = VITE_BUILD_COMPRESS.split(',')
     if (compressList.includes('gzip')) {
-      // http://doc.sensitive.vip/sensitive/other/faq.html#使用gzip解压缩静态文件
+      // https://github.com/Xianyang-gg/Sensitive
       plugin.push(
         compression({
           ext: '.gz',

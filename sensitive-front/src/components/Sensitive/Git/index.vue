@@ -5,7 +5,7 @@
 </template>
 
 <script setup>
-const url = ref('https://gitee.com/y_project/sensitive')
+const url = ref('https://github.com/Xianyang-gg/Sensitive')
 
 function goto() {
   window.open(url.value)
